@@ -1,0 +1,24 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Create a book</h3>
+            <form method="POST" action="/index/home" name="createBookForm">
+                <div class="form-group">
+                    <label for="bookId">Book ID</label>
+                    <input type="number" required class="form-control" id="bookId" placeholder="Enter Book ID"><br/>
+                    <label for="bookTitle">Book Title</label>
+                    <input type="text" class="form-control" id="bookTitle" placeholder="Enter Book Title"><br/>
+                    <label for="bookId">Book Author</label>
+                    <input type="text" class="form-control" id="bookAuthor" placeholder="Enter Book Author"><br/>
+                    <input type="submit" class="btn btn-success">Create</button>
+                </div>
+            </form>
+    </body>
+</html>
